@@ -153,15 +153,23 @@ Note that,
 \begin{align}
  \angle P&=180\degree-(\angle Q+\angle R) =90\degree
 \end{align} 
-That is,the $\triangle PQR$ is a right angled triangle.Let QR=p.
-Then by Pythagoras Theorem ,the sides of the triangle can be obtained by
+That is,the $\triangle PQR$ is a right angled triangle.Let QR=p and $\theta$=30$\degree$.
+Then the sides of the triangle can be obtained by
 \begin{align}
-  PQ&= p \cos30  \\
-  PR&= p \cos60
+  PQ&= p \cos \theta \\
+  PR&= p \sin \theta
 \end{align}
-Then the vertices of the triangle are\\ $\vec{P}$ = $\myvec{0\\0}$,$\vec{Q}$=$\myvec{0\\p \cos30}$,$\vec{R}$ =$\myvec{p\cos60\\0}$ .
-\\ Knowing all the vertices ,now we can construct the triangle.
-
+Then the vertices of the triangle are
+\begin{align}
+\vec{P} &= \myvec{0\\0} \\
+\vec{Q} &= \myvec{0 \\ p \cos \theta } \\
+	&= \myvec{0 \\ 4.7 \cos 30} \\
+	&= \myvec{0 \\ 4.07} \\
+\vec{R} &= \myvec{p \sin \theta \\ 0}\\
+	&= \myvec{4.7 \sin 30 \\ 0}\\
+	&= \myvec{2.35 \\ 0}
+\end{align}
+Knowing all the vertices ,now we can construct the triangle.
 \numberwithin{figure}{section}
 \begin{figure}[htp]
     \includegraphics[width=10cm]{triangle1.pdf}
